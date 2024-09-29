@@ -1,0 +1,60 @@
+.container h1 {
+    font-family: sans-serif;
+    font-weight: 350;
+    font-size: 200%;
+    
+  }
+
+.card {
+    border: 1px solid #ddd; 
+    border-radius: 10px;    
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img-top {
+    object-fit: cover; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.card-title {
+    font-size: 1.25rem; 
+    font-weight: bold;  
+    color: #333;        
+}
+
+.card-text {
+    font-size: 1rem; 
+    color: #666;     
+}
+
+.impLevel {
+    font-weight: bold; 
+}
+
+.prioritybtn {
+    background-color: #007bff; 
+    border: none;              
+    border-radius: 5px;       
+    padding: 10px 15px;       
+    transition: background-color 0.3s; 
+}
+
+
+.prioritybtn:hover {
+    background-color: #0056b3; 
+    cursor: pointer;            
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 10px; 
+    }
+}
+
